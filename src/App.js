@@ -7,21 +7,21 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
-var axios = require('axios');
+// var axios = require('axios');
 
-var config = {
-  method: 'get',
-  url: 'https://localhost:44349/Ingressos/listarIngressos',
-  headers: { }
-};
+// var config = {
+//   method: 'get',
+//   url: 'https://localhost:44349/Ingressos/listarIngressos',
+//   headers: { }
+// };
 
-axios(config)
-.then(function (response) {
-  console.log(JSON.stringify(response.data));
-})
-.catch(function (error) {
-  console.log(error);
-});
+// axios(config)
+// .then(function (response) {
+//   console.log(JSON.stringify(response.data));
+// })
+// .catch(function (error) {
+//   console.log(error);
+// });
 
 
 function App() {
